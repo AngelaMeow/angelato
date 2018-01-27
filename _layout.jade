@@ -1,0 +1,15 @@
+doctype
+html
+  head
+    title Angelato Design
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, maximum-scale=1.0, user-scalable=no')
+    link(rel='shortcut icon' href='images/favicon.ico' type="image/x-icon")
+    link(rel="stylesheet" href="css/main.css")
+  body
+    != partial("_header")
+    != yield
+    != partial("_footer")
+    script(src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js")
+    script(type="text/javascript" src="../js/stuff.js")
