@@ -2,9 +2,10 @@
 
 var textarray = [
 "Hello!",
-"Hola",
+"Hola :D",
 "Hey there!",
-"Meow"
+"Meow",
+"Ola!" 
 ];
 
 function RndText() {
