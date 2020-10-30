@@ -1,0 +1,10 @@
+body,html {
+    background-color: #001242;
+}
+
+.container-animation {
+    max-height: 100vh;
+}
+.container-animation svg {
+    height: 100vh!important;
+}
